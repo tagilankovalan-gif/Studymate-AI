@@ -436,7 +436,7 @@ elif selected_page == "📈 Progress Tracker":
         new_id = len(st.session_state.tracker_tasks) + 1
         st.session_state.tracker_tasks.append({
             "id": new_id,
-            "task": new_text_input := new_task_text,
+            "task": new_task_text,
             "done": False,
             "hours": task_hours
         })
